@@ -11,5 +11,5 @@ on:
 
 jobs:
   gitHub-actions-demo:
-    uses: srdeekon/demo-reusable/.github/workflows/calledworkflow.yml@main
+    uses: srdeekon/demo-reusable/.github/workflows/calledworkflow.yaml@main
   

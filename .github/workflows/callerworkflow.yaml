@@ -10,6 +10,6 @@ on:
         type: string
 
 jobs:
-  gitHub-actions-demo:
+  reusable-workflow-demo:
     uses: srdeekon/demo-reusable/.github/workflows/calledworkflow.yaml@main
   

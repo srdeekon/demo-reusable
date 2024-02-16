@@ -1,6 +1,6 @@
 name: called workflow Demo
 
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+run-name: ${{ github.actor }} is calling this workflow
 
 on:
   workflow_call:

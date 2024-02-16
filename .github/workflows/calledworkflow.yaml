@@ -6,7 +6,7 @@ on:
   workflow_call:
 
 jobs:
-  Explore-GitHub-Actions:
+  Print-input-Name:
     runs-on: ubuntu-latest
     steps:
       - name: Print the input name to STDOUT

@@ -1,0 +1,15 @@
+name: Callerworkflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      username:
+        description: 'A username passed from the caller workflow'
+        default: 'user name'
+        required: false
+        type: string
+
+jobs:
+  gitHub-actions-demo:
+    uses: amulyakashyap09/resuable-workflows/.github/workflows/on-push-job.yml@main
+  

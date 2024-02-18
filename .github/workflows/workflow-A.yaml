@@ -1,9 +1,11 @@
 name: Workflow A
 on:
   workflow_dispatch:
+  
 jobs:
-  job-workflow-A:  
+ job-workflow-A:  
     runs-on: ubuntu-latest
+    
     steps:
       - name: display comment 
         run: echo "Hello! from Workflow A"

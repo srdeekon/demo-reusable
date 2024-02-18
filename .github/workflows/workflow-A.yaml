@@ -2,7 +2,7 @@ name: Workflow A
 on:
   workflow_dispatch:
 jobs:
-  some_job:  
+  job-workflow-A:  
     runs-on: ubuntu-latest
     steps:
       - name: display comment 

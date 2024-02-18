@@ -5,5 +5,5 @@ jobs:
   some_job:  
     runs-on: ubuntu-latest
     steps:
-      - name: Some Step 
+      - name: display comment 
         run: echo "Hello! from Workflow A"
